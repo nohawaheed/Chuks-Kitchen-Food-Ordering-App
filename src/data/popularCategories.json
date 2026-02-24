@@ -1,8 +1,8 @@
 [
-    {"id": 1, "image": "./images/1.png", "title": "Jollof Delights"},
-    {"id": 2, "image": "./images/2.png", "title": "Swallow & Soups"},
-    {"id": 3, "image": "./images/3.png", "title": "Grills & BBQ"},
-    {"id": 4, "image": "./images/4.png", "title": "Sweet Treats"},
-    {"id": 5, "image": "./images/2.png", "title": "Jollof Delights"},
-    {"id": 6, "image": "./images/3.png", "title": "Jollof Delights"}
+    {"id": 1, "image": "./images/1.webp", "title": "Jollof Delights"},
+    {"id": 2, "image": "./images/2.webp", "title": "Swallow & Soups"},
+    {"id": 3, "image": "./images/3.webp", "title": "Grills & BBQ"},
+    {"id": 4, "image": "./images/4.webp", "title": "Sweet Treats"},
+    {"id": 5, "image": "./images/2.webp", "title": "Jollof Delights"},
+    {"id": 6, "image": "./images/3.webp", "title": "Jollof Delights"}
   ]

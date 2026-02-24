@@ -1,5 +1,5 @@
 [
-  {"id": 1, "title": "Jollof Rice & Smoked Fish", "description": "Flavorful jollof rice served with perfectly smoked fish.", "image": "./images/12.png", "price": "3,500"},
-  {"id": 2, "title": "Party Jollof Rice (Veg)", "description": "Vegetarian party jollof, full of rich flavors.", "image": "./images/1.png", "price": "3,500"},
-  {"id": 3, "title": "Party Jollof Rice (Veg)", "description": "Vegetarian party jollof, full of rich flavors.", "image": "./images/1.png", "price": "3,500"}
+  {"id": 1, "title": "Jollof Rice & Smoked Fish", "description": "Flavorful jollof rice served with perfectly smoked fish.", "image": "./images/12.webp", "price": "3,500"},
+  {"id": 2, "title": "Party Jollof Rice (Veg)", "description": "Vegetarian party jollof, full of rich flavors.", "image": "./images/1.webp", "price": "3,500"},
+  {"id": 3, "title": "Party Jollof Rice (Veg)", "description": "Vegetarian party jollof, full of rich flavors.", "image": "./images/1.webp", "price": "3,500"}
 ]

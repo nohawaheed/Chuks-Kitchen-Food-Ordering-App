@@ -8,7 +8,7 @@ import MenuItemCard from '../../components/menu-item-card/MenuItemCard';
 function Explore() {
   return (
     <>
-      <HeroSection title='Chuks  Kitchen' variant='hero--sm'  image='./images/welcome-2.png' paragraph='Chuks  Kitchen Nigerian Home Cooking 4.8  (1.2k)' />
+      <HeroSection title='Chuks  Kitchen' variant='hero--sm'  image='./images/welcome-2.webp' paragraph='Chuks  Kitchen Nigerian Home Cooking 4.8  (1.2k)' />
       <section className='section py-24 md:py-9.5 px-4 md:px-20.5'>
         <ul className='relative flex flex-col mb-14.25 gap-4.5 py-6.5 md:rounded-t-[14px] bg-white text-black'>
           <h3 className='text-big-title font-medium ps-6.5'>Menu Categories</h3>

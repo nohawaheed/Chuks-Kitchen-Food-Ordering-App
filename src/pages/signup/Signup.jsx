@@ -9,7 +9,7 @@ function Signup() {
       <SignImage />
       <div className='flex flex-col justify-center m-auto gap-4 max-w-117.5 w-full xl:w-117.5 p-2.5'>
         <div className='flex flex-col items-center'>
-          <img src="./images/chuks-kitchen.png" alt="chucks kitchen logo" />
+          <img src="./images/chuks-kitchen.webp" alt="chucks kitchen logo" />
           <h2 className='text-xl font-medium xl:font-semibold'>Create Your Account</h2>
         </div>
         <div className='flex flex-col gap-5'>

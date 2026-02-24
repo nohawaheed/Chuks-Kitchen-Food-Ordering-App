@@ -23,12 +23,12 @@ function Account() {
     <div className='card-item'>
       <picture>
         <source
-          srcSet="./images/order-desktop.png"
+          srcSet="./images/order-desktop.webp"
           media="(min-width: 1280px)"
           className="w-full max-w-165.25 min-h-265.25 mt-22.5"
         />
         <img
-          src="./images/order-mobile.png"
+          src="./images/order-mobile.webp"
           alt="order image"
           className="w-full h-full"
         />

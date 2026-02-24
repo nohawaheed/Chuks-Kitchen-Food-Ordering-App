@@ -1,8 +1,8 @@
 [
-  {"id": 1, "title": "Jollof Rice & Fried Chicken", "description": "Our signature Jollof rice, served with crispy fried chicken and plantain.", "image": "./images/1.png", "price": "3,500"},
-  {"id": 2, "title": "Eba & Egusi Soup (Goat Meat)", "description": "Hearty Egusi soup with tender goat meat, served with soft Eba.", "image": "./images/8.png", "price": "3,500"},
-  {"id": 3, "title": "Pounded Yam & Edikaikong", "description": "Traditional pounded yam with rich, leafy Edikaikong soup.", "image": "./images/9.png", "price": "3,500"},
-  {"id": 4, "title": "Peppered Snail", "description": "Spicy and savory peppered snail, perfect as a starter.", "image": "./images/10.png", "price": "3,500"},
-  {"id": 5, "title": "Grilled Tilapia Fish", "description": "Whole grilled tilapia seasoned with our special spices.", "image": "./images/11.png", "price": "3,500"},
-  {"id": 6, "title": "Jollof Rice & Fried Chicken", "description": "Our signature Jollof rice, served with crispy fried chicken and plantain.", "image": "./images/1.png", "price": "3,500"}
+  {"id": 1, "title": "Jollof Rice & Fried Chicken", "description": "Our signature Jollof rice, served with crispy fried chicken and plantain.", "image": "./images/1.webp", "price": "3,500"},
+  {"id": 2, "title": "Eba & Egusi Soup (Goat Meat)", "description": "Hearty Egusi soup with tender goat meat, served with soft Eba.", "image": "./images/8.webp", "price": "3,500"},
+  {"id": 3, "title": "Pounded Yam & Edikaikong", "description": "Traditional pounded yam with rich, leafy Edikaikong soup.", "image": "./images/9.webp", "price": "3,500"},
+  {"id": 4, "title": "Peppered Snail", "description": "Spicy and savory peppered snail, perfect as a starter.", "image": "./images/10.webp", "price": "3,500"},
+  {"id": 5, "title": "Grilled Tilapia Fish", "description": "Whole grilled tilapia seasoned with our special spices.", "image": "./images/11.webp", "price": "3,500"},
+  {"id": 6, "title": "Jollof Rice & Fried Chicken", "description": "Our signature Jollof rice, served with crispy fried chicken and plantain.", "image": "./images/1.webp", "price": "3,500"}
 ]

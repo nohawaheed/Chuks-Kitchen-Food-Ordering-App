@@ -8,7 +8,7 @@ import ChefSpecials from '../../data/ChefSpecials.json'
 function Home() {
   return (
     <>
-      <HeroSection title='The Heart of Nigerian Home Cooking' buttonTitle='Discover what’s new' image='./images/welcome.png' paragraph='Handcrafted with passion, delivered with care.' />
+      <HeroSection title='The Heart of Nigerian Home Cooking' buttonTitle='Discover what’s new' image='./images/welcome.webp' paragraph='Handcrafted with passion, delivered with care.' />
       {/* popular categories */}
       <section className='section relative py-24 md:py-34.25 px-4 md:px-13.75'>
       {/* search */}
@@ -40,7 +40,7 @@ function Home() {
       </section>
       <HeroSection variant="hero--md" title='Introducing Our New Menu Additions!' paragraph='Explore exciting new dishes, crafted with the freshest
       ingredients and authentic Nigerian flavors. Limited time
-      offer!' heading='h2' image='./images/new-menu.png' buttonTitle='Discover what’s new'/>
+      offer!' heading='h2' image='./images/new-menu.webp' buttonTitle='Discover what’s new'/>
     </>
   )
 }

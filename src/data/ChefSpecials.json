@@ -1,8 +1,8 @@
 [
-  {"id": 1, "title": "Spicy Tilapia Pepper Soup", "description": "A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.", "image": "./images/7.png", "price": "3,500"},
-  {"id": 2, "title": "Jollof Rice & Fried Chicken", "description": "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.", "image": "./images/1.png", "price": "3,500"},
-  {"id": 3, "title": "Jollof Rice & Fried Chicken", "description": "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.", "image": "./images/1.png", "price": "3,500"},
-  {"id": 4, "title": "Jollof Rice & Smoked Chicken", "description": "Our signature Jollof rice, cooked to perfection, served with succulent Smoked chicken.", "image": "./images/1.png", "price": "3,500"},
-  {"id": 5, "title": "Jollof Rice & Fried Chicken", "description": "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.", "image": "./images/5.png", "price": "3,500"},
-  {"id": 6, "title": "Egusi Soup & Pounded Yam", "description": "Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam.", "image": "./images/6.png", "price": "3,500"}
+  {"id": 1, "title": "Spicy Tilapia Pepper Soup", "description": "A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.", "image": "./images/7.webp", "price": "3,500"},
+  {"id": 2, "title": "Jollof Rice & Fried Chicken", "description": "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.", "image": "./images/1.webp", "price": "3,500"},
+  {"id": 3, "title": "Jollof Rice & Fried Chicken", "description": "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.", "image": "./images/1.webp", "price": "3,500"},
+  {"id": 4, "title": "Jollof Rice & Smoked Chicken", "description": "Our signature Jollof rice, cooked to perfection, served with succulent Smoked chicken.", "image": "./images/1.webp", "price": "3,500"},
+  {"id": 5, "title": "Jollof Rice & Fried Chicken", "description": "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.", "image": "./images/5.webp", "price": "3,500"},
+  {"id": 6, "title": "Egusi Soup & Pounded Yam", "description": "Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam.", "image": "./images/6.webp", "price": "3,500"}
 ]
