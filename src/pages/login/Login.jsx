@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import SignImage from './../../components/sign-image/SignImage';
 import Button from './../../ui/Button';
 import { Link } from 'react-router';
