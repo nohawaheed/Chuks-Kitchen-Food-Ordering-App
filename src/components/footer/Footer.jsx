@@ -7,7 +7,7 @@ function Footer() {
     <footer className='bg-blended-brown text-white py-24 px-15 md:px-27.5'>
       <div className='flex flex-wrap gap-15 md:gap-25.25'>
         <div className='max-w-57.25'>
-          <img src="./images/chuks-kitchen.webp" alt="chucks kitchen logo" />
+          <img src="./images/chuks-kitchen.png" alt="chucks kitchen logo" />
           <p className='font-jost text-xl'>
             Bringing the authentic flavors of Nigerian home cooking to your table, with passion and care.
           </p>

@@ -6,12 +6,12 @@ function Logo() {
     <Link to="/">
       <picture>
         <source
-          srcSet="./images/chuks-kitchen.webp"
+          srcSet="./images/chuks-kitchen.png"
           media="(min-width: 1280px)"
           className="w-full max-w-165.25 min-h-265.25 mt-22.5"
         />
         <img
-          src="./images/chuks-kitchen-mobile.webp"
+          src="./images/chuks-kitchen-mobile.png"
           alt="chucks kitchen logo"
           className="w-full h-full"
         />

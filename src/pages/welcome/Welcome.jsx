@@ -13,12 +13,12 @@ function Welcome() {
       </picture>
       <div className='flex flex-col justify-around mx-auto gap-4 w-full max-w-144.25 xl:w-144.25'>
         <div className='flex items-center'>
-          <img className='hidden xl:flex' src="./images/chuks-kitchen.webp" alt="chucks kitchen logo" />
+          <img className='hidden xl:flex' src="./images/chuks-kitchen.png" alt="chucks kitchen logo" />
           <Link to="/login" className='ms-auto mb-[37px] mt-[21px] xl:mb-0 xl:mt-0 text-primary-blue font-semibold rounded-[10px] py-3.75 px-[53.5px] ring-2 ring-primary-blue ring-inset'>Sign In</Link>
         </div>
         <div className='flex flex-col gap-2.5 p-2.5'>
           <div className='flex flex-col gap-2.5 xl:gap-6 items-start'>
-            <img className='xl:hidden self-center' src="./images/chuks-kitchen.webp" alt="chucks kitchen logo" />
+            <img className='xl:hidden self-center' src="./images/chuks-kitchen.png" alt="chucks kitchen logo" />
             <h1 className='text-2xl font-bold'>Your Authentic Taste of Nigeria</h1>
             <p className='text-md xl:font-medium'>Experience homemade flavors delivered fresh to your desk or home. We bring the rich culinary heritage of Nigeria right to your doorstep.</p>
           </div>
