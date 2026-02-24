@@ -7,7 +7,7 @@ No backend or authentication logic is implemented.
 ## 🔗 Links
 
 - 🎨 **Figma Design:** [Truemind-UI-DESIGN](https://www.figma.com/design/EIq17AUkUFl4TTvzvqhgZW/Truemind-UI-DESIGN)
-- 🌐 **Live Demo:** []()
+- 🌐 **Live Demo:** [chuks-kitchen](https://chuks-kitchen-food-ordering-app-vyl.vercel.app)
 
 ---
 
