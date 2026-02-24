@@ -1,0 +1,5 @@
+[
+  {"id": 1, "title": "Amala with Gbegiri & Ewedu", "description": "Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.", "image": "./images/13.png", "price": "3,500"},
+  {"id": 2, "title": "Fufu & Okra Soup (Fish)", "description": "Light Fufu served with fresh okra soup and tilapia fish.", "image": "./images/14.png", "price": "3,500"},
+  {"id": 3, "title": "Fufu & Okra Soup (Fish)", "description": "Light Fufu served with fresh okra soup and tilapia fish.", "image": "./images/14.png", "price": "3,500"}
+]
