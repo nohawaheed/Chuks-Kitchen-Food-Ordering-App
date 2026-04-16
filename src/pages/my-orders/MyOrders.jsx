@@ -9,6 +9,46 @@ import Button from '../../ui/Button';
 
 function MyOrders() {
   const [step, setStep] = useState(1);
+  const [cartItems, setCartItems] = useState(CartItems);
+  // const addItem = (newItem) => {
+  //   setCartItems((prev) => {
+  //     const existing = prev.find((item) => item.id === newItem.id);
+
+  //     if (existing) {
+  //       return prev.map((item) =>
+  //         item.id === newItem.id
+  //           ? { ...item, quantity: item.quantity + 1 }
+  //           : item,
+  //       );
+  //     }
+
+  //     return [...prev, { ...newItem, quantity: 1 }];
+  //   });
+  // };
+  const decrementItem = (id) => {
+    setCartItems((prev) =>
+      prev
+        .map((item) =>
+          item.id === id ? { ...item, quantity: item.quantity - 1 } : item,
+        )
+        .filter((item) => item.quantity > 0),
+    );
+  };
+  const incrementItem = (id) => {
+    setCartItems((prev) =>
+      prev.map((item) =>
+        item.id === id ? { ...item, quantity: item.quantity + 1 } : item,
+      ),
+    );
+  };
+  const removeItem = (id) => {
+    setCartItems((prev) => prev.filter((item) => item.id !== id));
+  };
+
+  const total = cartItems.reduce(
+    (acc, item) => acc + item.price * item.quantity,
+    0,
+  );
   return (
     <main className="flex flex-col mt-8 xl:mt-25.75 gap-2.75 px-3.25 md:px-11 py-4.25 md:py-5.25">
       {step === 1 && (
@@ -16,13 +56,14 @@ function MyOrders() {
           <h2 className="hidden md:flex text-page-heading font-semibold md:font-bold">
             Your Cart
           </h2>
-          {CartItems.map((item) => (
+          {cartItems.map((item) => (
             <CartItem
-              image={item.image}
-              title={item.title}
-              description={item.description}
-              price={item.price}
+              {...item}
               key={item.id}
+              totalPrice={total}
+              onIncrement={() => incrementItem(item.id)}
+              onDecrement={() => decrementItem(item.id)}
+              onRemove={() => removeItem(item.id)}
             />
           ))}
           <div className="flex items-center gap-2.75 px-0.75">
@@ -47,7 +88,9 @@ function MyOrders() {
           </div>
         </div>
       )}
-      {step === 2 && <OrderSummary onClick={() => setStep(3)} />}
+      {step === 2 && (
+        <OrderSummary totalPrice={total} onClick={() => setStep(3)} />
+      )}
       {step === 3 && <DeliveryDetails onClick={() => setStep(4)} />}
       {step === 4 && <PaymentOptions onClick={() => setStep(5)} />}
       {step === 5 && <CardOrderCompletion />}

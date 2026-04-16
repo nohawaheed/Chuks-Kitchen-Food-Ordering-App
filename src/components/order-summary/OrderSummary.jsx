@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './../../ui/Button';
 import HorizontalLine from './../../ui/HorizontalLine';
 
-function OrderSummary({ onClick }) {
+function OrderSummary({ totalPrice, onClick }) {
   return (
     <div className="flex flex-col max-w-216 lg:w-216 m-auto mt-15 gap-5.75 px-2.25 md:px-4 py-5 rounded-sm bg-white">
       <div className="flex flex-col gap-3.5 py-2">
@@ -25,7 +25,7 @@ function OrderSummary({ onClick }) {
       <div className="flex flex-col gap-2.5">
         <ul className="flex flex-col gap-2.5 text-dark-gray-text font-medium">
           <li className="flex justify-between">
-            Subtotal<span>₦9,200</span>
+            Subtotal<span>₦{totalPrice.toLocaleString('en-US')}</span>
           </li>
           <li className="flex justify-between">
             Delivery Fee<span>₦500</span>
@@ -41,7 +41,7 @@ function OrderSummary({ onClick }) {
       </div>
       <div className="flex justify-between text-big-title font-semibold text-charcoal-black-text">
         <h3>Total</h3>
-        <span>₦9,900</span>
+        <span>₦{(totalPrice + 700).toLocaleString('en-US')}</span>
       </div>
       <div className="flex w-full">
         <button className="w-1/2 text-white bg-primary-orange px-2.5 py-3.75 rounded-tl-lg rounded-bl-lg">
