@@ -1,8 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 
-function MenuItemCard({ title, description, image, price }) {
+function MenuItemCard({ title, description, image, price, itemId, category }) {
+  const navigate = useNavigate();
+
   return (
-    <div className="card card--menu">
+    <div
+      className="card card--menu"
+      onClick={() => {
+        navigate(`item/${category}/${itemId}`);
+      }}
+    >
       <img
         src={image}
         alt={title}

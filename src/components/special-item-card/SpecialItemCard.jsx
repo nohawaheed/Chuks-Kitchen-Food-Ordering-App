@@ -1,9 +1,17 @@
 import React from 'react';
 import Button from '../../ui/Button';
+import { useNavigate } from 'react-router';
 
-function SpecialItemCard({ title, description, image, price }) {
+function SpecialItemCard({ title, description, image, price, itemId }) {
+  const navigate = useNavigate();
+
   return (
-    <div className="card card--special">
+    <div
+      className="card card--special"
+      onClick={() => {
+        navigate(`item/ChefSpecials/${itemId}`);
+      }}
+    >
       <img src={image} alt={title} className="w-full" />
       <div className="card__text-group">
         <h3 className="special-card__title">{title}</h3>
