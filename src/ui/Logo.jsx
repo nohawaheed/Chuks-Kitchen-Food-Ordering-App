@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from "react-router";
+import { Link } from 'react-router';
 
 function Logo() {
   return (
     <Link to="/">
       <picture>
         <source
-          srcSet="./images/chuks-kitchen.png"
+          srcSet="/images/chuks-kitchen.png"
           media="(min-width: 1280px)"
           className="w-full max-w-165.25 min-h-265.25 mt-22.5"
         />
@@ -17,7 +17,7 @@ function Logo() {
         />
       </picture>
     </Link>
-  )
+  );
 }
 
-export default Logo
+export default Logo;

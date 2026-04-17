@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Jollof Rice & Fried Chicken",
     "description": "With plantain, extra pepper sauce",
-    "image": "./images/15.webp",
+    "image": "/images/15.webp",
     "price": 3200,
     "quantity": 1
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Jollof Rice & Fried Chicken",
     "description": "With plantain, extra pepper sauce",
-    "image": "./images/16.webp",
+    "image": "/images/16.webp",
     "price": 3200,
     "quantity": 1
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Jollof Rice & Fried Chicken",
     "description": "With plantain, extra pepper sauce",
-    "image": "./images/17.webp",
+    "image": "/images/17.webp",
     "price": 3200,
     "quantity": 1
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Jollof Rice & Fried Chicken",
     "description": "With plantain, extra pepper sauce",
-    "image": "./images/15.webp",
+    "image": "/images/15.webp",
     "price": 3200,
     "quantity": 1
   }
