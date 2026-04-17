@@ -7,7 +7,7 @@ function SpecialItemCard({ title, description, image, price, itemId }) {
 
   return (
     <div
-      className="card card--special"
+      className="card card--special cursor-pointer"
       onClick={() => {
         navigate(`item/ChefSpecials/${itemId}`);
       }}

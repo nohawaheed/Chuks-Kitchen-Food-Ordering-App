@@ -6,7 +6,7 @@ function MenuItemCard({ title, description, image, price, itemId, category }) {
 
   return (
     <div
-      className="card card--menu"
+      className="card card--menu cursor-pointer"
       onClick={() => {
         navigate(`item/${category}/${itemId}`);
       }}
